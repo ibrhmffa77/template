@@ -1,0 +1,49 @@
+.section-two{
+    width: 100%;
+    display: flex;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.image1 {
+    width: 400px;
+    position: relative;
+    margin-top: 50px;
+    border: 2px solid aliceblue;
+  }
+  
+  .image2 {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 200px;
+    border: 3px solid rgb(230, 216, 230);
+  }
+  .col p{
+    margin-top: 20px;
+  }
+ .text{
+    color: red;
+   
+  }
+  .col h2{
+    font-size: 50px;
+  }
+  .red{
+    color: red;
+  }
+  .col button{
+    background-color:red;
+    margin-top:60px;
+    color: white;
+    width: 160px;
+}
+.col button:hover{
+    background-color: gold;
+}
+
+ 
+ 
